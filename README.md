@@ -1,24 +1,8 @@
 # Python Basics Exercises Exercise 1
 ## Project Overview
-This project contains **30 beginner-friendly Python exercises** covering the fundamentals of Python programming.
-It is designed for practice and learning through simple examples including:
-- Variables and data types
-- Arithmetic operations
-- User input
-- Conditional statements
-- Loops
-- Lists, tuples, sets, and dictionaries
-- Functions
-All solutions are written in Python and organized as **Q1 → Q30** in a single file.
+This project contains all solutions for exercise 1, written in Python and organized as **Q1 → Q30** in a single file.
 ## File Included
 - `Room 3 - Exercise 1.py` — Contains solutions for exercises **Q1 to Q30**
-## Learning Outcomes:
-- Writing basic Python syntax correctly
-- Working with input/output
-- Building logic using conditions and loops
-- Using Python data structures
-- Creating simple reusable functions
-
 ## Authors:
 1. Adeyonu Temidayo Adebunmi WTF/2025/8395
 2. OJO ESTHER AYOMIDE - WTF/2025/5212
