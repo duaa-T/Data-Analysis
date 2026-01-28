@@ -126,7 +126,7 @@ print(colors)
 
 #Q26
 numbers={1,2,2,3,3,4,4}
-print(i) 
+print(numbers) 
 
 #Q27 & Q28
 Student={"name":"Duaa","Age":"32","Course":"Data Science and Engineering "}
@@ -142,4 +142,5 @@ welcome()
 def sum(a,b):
    print("Sum is ",a+b)
 sum(50,67)
+
 
