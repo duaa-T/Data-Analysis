@@ -1,0 +1,109 @@
+# 🏦 Bank Account Management System (Python OOP Project)
+ 
+ 
+## Project Overview
+ 
+This project is a **Bank Account Management System** built using **Python** and **Object-Oriented Programming (OOP)** principles.
+ 
+The project was designed to demonstrate a clear, practical understanding of the four core pillars of OOP:
+ 
+- **Encapsulation**
+- **Abstraction**
+- **Inheritance**
+- **Polymorphism**
+ 
+Rather than focusing on a complex user interface, this project emphasizes **clean code structure**, **real-world modeling**, and **proper software design**, using a banking system as the case study.
+ 
+ 
+## Why We Built This Project
+ 
+Banking systems are ideal for learning Object-Oriented Programming because they naturally involve:
+ 
+- Different types of accounts
+- Shared behaviors such as deposit and withdrawal
+- Restricted access to sensitive data
+- Different implementations of the same operation (such as interest calculation)
+ 
+This project models these real-world scenarios in a **simple, structured, and professional way**.
+ 
+ 
+## OOP Design Philosophy
+ 
+The system is designed around a **base abstract account class**, from which specific account types inherit.
+ 
+The account types implemented include:
+ 
+- **Savings Account** – earns basic interest  
+- **Current Account** – allows overdraft  
+- **Interest Account** – earns higher interest  
+ 
+This design ensures:
+ 
+- Code reusability  
+- Clear separation of responsibilities  
+- Easy extensibility for future account types  
+ 
+ 
+ 
+## Application of OOP Pillars
+ 
+### Abstraction
+ 
+Abstraction is applied by defining a base account structure that specifies **what every account must do**, without defining **how it should be done**.  
+Each account type is required to implement its own interest calculation logic.
+ 
+ 
+ 
+### Encapsulation
+ 
+Encapsulation is achieved by protecting sensitive data such as account balance and ensuring it can only be modified through controlled methods like deposit and withdraw.
+ 
+ 
+ 
+### Inheritance
+ 
+Inheritance allows specific account types to reuse common functionality from the base account class while implementing their own unique behavior.
+ 
+ 
+### Polymorphism
+ 
+Polymorphism allows the same operation, such as interest calculation, to behave differently depending on the account type being used.
+ 
+___
+ 
+The full implementation of the system is contained in the Python source files within the repository.
+ 
+---
+ 
+## Key Learnings
+ 
+Through this project, I:
+ 
+- Gained hands-on experience with Python Object-Oriented Programming
+- Developed a deeper understanding of abstraction, encapsulation, inheritance, and polymorphism
+- Learned how to design clean and reusable code
+- Improved my ability to model real-world systems in software
+- Practiced writing professional project documentation
+ 
+---
+ 
+## Future Improvements
+ 
+Possible future enhancements include:
+ 
+- Transaction history tracking
+- User authentication
+- Additional account types
+- Database integration for persistent storage
+ 
+---
+ 
+## 👩🏽‍💻 Authors
+ 
+**Please list all our names here** 
+Python | Data Science
+ 
+This is the README for the bank System. Please create a README.md file and paste this text and push
+Exclusive Software Deals for Developers and Startups - Dealsbe
+Save on the best tools for development, AI, no-code solutions, hosting, VPNs, and more
+ 

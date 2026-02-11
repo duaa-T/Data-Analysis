@@ -1,0 +1,55 @@
+from abc import ABC, abstractmethod
+ 
+class TransportCard(ABC):
+    def __init__(self, balance):
+        self._balance = balance  # Encapsulation
+ 
+    def top_up(self, amount):
+        if amount > 0:
+            self._balance += amount
+            print("New card balance:", self._balance)
+        else:
+            print("Invalid top-up amount")
+ 
+    @abstractmethod
+    def calculate_fare(self):
+        pass
+ 
+    def pay_fare(self):
+        fare = self.calculate_fare()
+        if fare > self._balance:
+            print("Insufficient balance")
+        else:
+            self._balance -= fare
+            print("Fare paid:", fare)
+            print("Remaining balance:", self._balance)
+ 
+ 
+class Bus(TransportCard):
+    def calculate_fare(self):
+        fare = 1000
+        discount = fare * 0.1  # 10% discount
+        return fare - discount
+ 
+ 
+class Train(TransportCard):  
+    def calculate_fare(self):
+        distance_fare = 200
+        discount = distance_fare * 0.15  # 15% discount
+        return distance_fare - discount
+ 
+ 
+class Ferry(TransportCard):
+    def calculate_fare(self):
+        fare = 300  # premium transport
+        return fare  # no discount
+ 
+ 
+card1 = Bus(500)
+card1.pay_fare()
+ 
+card2 = Train(500)
+card2.pay_fare()
+ 
+card3 = Ferry(500)
+card3.pay_fare()

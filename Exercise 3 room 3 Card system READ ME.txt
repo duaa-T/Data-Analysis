@@ -1,0 +1,23 @@
+# Transport Card Management System (Python OOP Project)
+## Project Overview
+This project is a Transport Card Management System developed using Python and Object-Oriented Programming (OOP) principles. The system simulates a real-world public transport payment card, allowing users to top up balance, pay fares, and calculate fares differently depending on the transport type. The main goal of this project is to demonstrate a clear and practical understanding of OOP concepts rather than building a full user interface.
+## Why We Built This Project
+Public transportation systems are an excellent real-world example for applying OOP because they involve a shared card structure, different transport types with different fare rules, secure handling of sensitive data, and one action behaving differently depending on context. This project models these scenarios in a simple, clean, and extensible design.
+## OOP Design Philosophy
+The system is built around a base abstract transport card class which defines common behaviors shared by all transport types. Specific transport types inherit from this base class including Bus (fixed fare with discount), Train (distance-based fare with higher discount), and Ferry (premium transport with no discount). This design ensures code reusability, clear separation of responsibilities, and easy expansion for future transport types.
+## Application of OOP Pillars
+### Abstraction
+Abstraction is implemented using an abstract base class (TransportCard) that defines what every transport card must do without specifying how fares are calculated. Each transport type is required to implement its own calculate_fare logic.
+### Encapsulation
+Encapsulation is achieved by protecting the card balance using a protected attribute (_balance). The balance can only be modified through controlled methods such as top_up and pay_fare, preventing unauthorized access to sensitive data.
+### Inheritance
+Inheritance allows transport types like Bus, Train, and Ferry to reuse shared functionality from the TransportCard class while implementing their own fare calculation rules.
+### Polymorphism
+Polymorphism enables the same method (calculate_fare) to behave differently depending on the transport type. A bus applies a 10% discount, a train applies a 15% discount, and a ferry applies no discount.
+## Key Learnings
+Through this project, I strengthened my understanding of Python OOP concepts, practiced abstraction using abstract base classes, applied encapsulation to protect sensitive data, used inheritance to reduce code duplication, implemented polymorphism for flexible behavior, and learned how to document a project professionally.
+## Future Improvements
+Possible future enhancements include trip history tracking, multiple card types, dynamic fare calculation based on distance or zones, user authentication, and database integration for persistent balance storage.
+## 👩🏽‍💻 Authors
+Please list all our names here
+Python | Data Science
