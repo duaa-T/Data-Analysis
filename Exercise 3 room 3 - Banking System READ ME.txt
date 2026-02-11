@@ -12,20 +12,6 @@ The project was designed to demonstrate a clear, practical understanding of the 
 - **Inheritance**
 - **Polymorphism**
  
-Rather than focusing on a complex user interface, this project emphasizes **clean code structure**, **real-world modeling**, and **proper software design**, using a banking system as the case study.
- 
- 
-## Why We Built This Project
- 
-Banking systems are ideal for learning Object-Oriented Programming because they naturally involve:
- 
-- Different types of accounts
-- Shared behaviors such as deposit and withdrawal
-- Restricted access to sensitive data
-- Different implementations of the same operation (such as interest calculation)
- 
-This project models these real-world scenarios in a **simple, structured, and professional way**.
- 
  
 ## OOP Design Philosophy
  
@@ -70,10 +56,7 @@ Inheritance allows specific account types to reuse common functionality from the
 Polymorphism allows the same operation, such as interest calculation, to behave differently depending on the account type being used.
  
 ___
- 
-The full implementation of the system is contained in the Python source files within the repository.
- 
----
+
  
 ## Key Learnings
  
@@ -100,10 +83,23 @@ Possible future enhancements include:
  
 ## 👩🏽‍💻 Authors
  
-**Please list all our names here** 
+Presentation list.
+1. Mercy Sunday - WTF/2025/7056. Participated and presented
+2.Duaa Abdelbagi - WTF/2025/7390 . participated and presented
+3. Sophie Wabuge - WTF/2025/8623. Participated and presented
+4.stephanie Ng'ang'a -WTF/2025/8560. Participated and presented
+5. Ojo Esther Ayomide- WTF/2025/5212...participated and presented
+6.Kanene Lillian Winnie - WTF/2025/9552 Participated and presented
+7. Adeyonu Temidayo WTF/2025/8395. Participated and presented
+8. Ogundiran Tomilola WTF/2025/6105. Participated and presented
+9. Margolda Bosu WTF/2025/2759. Participated
+10. Adedeji Morenike WTF/2025/8121. Participated and presented.
+11. Janet Wangari Mwani WTF/2025/4125. Participated
+12. Yvonne Akoth WTF/2025/6527. Participated
 Python | Data Science
  
 This is the README for the bank System. Please create a README.md file and paste this text and push
 Exclusive Software Deals for Developers and Startups - Dealsbe
 Save on the best tools for development, AI, no-code solutions, hosting, VPNs, and more
+
  
